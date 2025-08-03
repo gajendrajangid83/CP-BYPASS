@@ -74,7 +74,7 @@ client = SecureAPIClient()
 apis = client.get_apis()
 
 # Global variables
-watermark = "UG"  # Default value
+watermark = "G"  # Default value
 count = 0
 userbot = None
 timeout_duration = 300  # 5 minutes
@@ -288,7 +288,7 @@ async def getcookies_handler(client: Client, m: Message):
 @bot.on_message(filters.command(["stop"]) )
 async def restart_handler(_, m):
     
-    await m.reply_text("🚦**STOPPED**", True)
+    await m.reply_text("🚦**STOPPED FOR YOU GAJJU BHAI**", True)
     os.execl(sys.executable, sys.executable, *sys.argv)
         
 
@@ -336,7 +336,7 @@ async def start(bot: Client, m: Message):
             await m.reply_photo(
                 photo=photologo,
                 caption=f"**👋 Welcome {m.from_user.first_name}!**\n\n{commands_list}",
-                reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📚 Help", url="https://t.me/ItsUGBot")]])
+                reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📚 Help", url="https://t.me/bosch12345o")]])
             )
             
     except Exception as e:
@@ -363,7 +363,7 @@ async def unauthorized_handler(client, message: Message):
         "<blockquote>You need to have an active subscription to use this bot.\n"
         "Please contact admin to get premium access.</blockquote>",
         reply_markup=InlineKeyboardMarkup([[
-            InlineKeyboardButton("💫 Get Premium Access", url="https://t.me/ItsUGBot")
+            InlineKeyboardButton("💫 Get Premium Access", url="https://t.me/bosch12345o")
         ]])
     )
 
@@ -562,7 +562,7 @@ async def txt_handler(bot: Client, m: Message):
     # Define watermark variable based on input
     global watermark
     if raw_textx == '/d':
-        watermark = "UG"
+        watermark = "G"
     else:
         watermark = raw_textx
     
@@ -1058,7 +1058,7 @@ async def txt_handler(bot: Client, m: Message):
         f"├ 🖼️ ɪᴍᴀɢᴇꜱ : <code>{img_count}</code>\n"
         "╰────────────────────────────\n\n"
         
-        "<i>ᴇxᴛʀᴀᴄᴛᴇᴅ ʙʏ ᴜɢ ʙᴏᴛꜱ ⚙️</i>"
+        "<i>ᴇxᴛʀᴀᴄᴛᴇᴅ ʙʏ ɢAJJU ʙᴏᴛꜱ ⚙️</i>"
     )
 )
 
