@@ -302,8 +302,8 @@ async def start(bot: Client, m: Message):
             await m.reply_text(
                 "**✨ Bot is active in this channel**\n\n"
                 "**Available Commands:**\n"
-                "• /drm - Download DRM videos\n"
-                "• /plan - View channel subscription\n\n"
+                "• /txt - Download DRM videos\n"
+                "• /valid - View channel subscription\n\n"
                 "Send these commands in the channel to use them."
             )
         else:
@@ -316,15 +316,15 @@ async def start(bot: Client, m: Message):
                     photo=photologo,
                     caption="**🔒 Access Required**\n\nContact admin to get access.",
                     reply_markup=InlineKeyboardMarkup([
-                        [InlineKeyboardButton("💫 Get Access", url="https://t.me/ItsUGBot")]
+                        [InlineKeyboardButton("💫 Get Access", url="https://t.me/bosch12345o")]
                     ])
                 )
                 return
                 
             commands_list = (
                 "**🤖 Available Commands**\n\n"
-                "• /drm - Start Uploading...\n"
-                "• /plan - View subscription\n"
+                "• /txt - Start Uploading...\n"
+                "• /valid - View subscription\n"
             )
             
             if is_admin:
