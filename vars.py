@@ -6,7 +6,7 @@ API_ID = int(os.environ.get("API_ID", ""))
 API_HASH = os.environ.get("API_HASH", "")
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 
-CREDIT = os.environ.get("CREDIT", "〱ＵＧ▕")
+CREDIT = os.environ.get("CREDIT", "GAJJU")
 # MongoDB Configuration
 DATABASE_NAME = os.environ.get("DATABASE_NAME", "takkishor9784")
 DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://takkishor9784:gG73juoh44MnvJEZ@cluster0.q8hxdk2.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
