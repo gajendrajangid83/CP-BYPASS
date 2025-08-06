@@ -13,7 +13,7 @@ DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://takkishor9784:gG73j
 MONGO_URL = DATABASE_URL  # For auth system
 
 # Owner and Admin Configuration
-OWNER_ID = int(os.environ.get("OWNER_ID", "7623178784"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "1783306092"))
 ADMINS = [int(x) for x in os.environ.get("ADMINS", "774").split()]  # Default to owner ID
 
 # Channel Configuration
@@ -51,7 +51,7 @@ Please contact the admin to renew your subscription.</blockquote>""",
     "access_denied": """<b>⚠️ Access Denied!</b>
 
 <blockquote>You are not authorized to use this bot.
-Please contact the admin @ItsUGBot to get access.</blockquote>""",
+Please contact the admin @bosch12345o to get access.</blockquote>""",
 
     "not_admin": "⚠️ You are not authorized to use this command!",
     
